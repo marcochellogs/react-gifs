@@ -20,7 +20,7 @@ class App extends Component {
       rating: 'g',
     }, (err, res) => {
         this.setState({
-          gifs: res.data,
+          gifs: res.data
         });
       });
   }
